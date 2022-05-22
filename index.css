@@ -1,0 +1,87 @@
+
+#hero {
+    background:linear-gradient(#10B680,#2EC4DE);
+    display:block;
+    max-width:550px;
+    height:260px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding-top:53px;
+    
+}
+
+#hero-title{
+    font-size:22px;
+    font-family: 'Inter', sans-serif;
+    font-weight:800;
+    color:#FFF;
+}
+
+#submitBtn{
+    padding:10px;
+    margin-top: 10px;
+    background-color:#FFF;
+    border-radius:8px;
+    border: 1px solid #FFF;
+     color:#10B680;
+}
+
+#submitBtn:hover{
+    font-weight:bold 
+}
+#yourNumber{
+    
+    margin-top: 0px;
+    background-color:transparent;
+    border:none;
+    color:#FFF;
+    width:100px;
+    line-heigth:25px;
+    font-size:60px;
+    text-align:center;
+    font-weight:800;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+.calculation{
+    text-align:center;
+    padding:38px 102px;
+    font-size: 14px;
+    
+}
+
+.lengthResult,.volumeResult,.massResult {
+    margin-top:27px;
+    padding:1px;
+}
+.result-subtitle{
+    
+    color:#1A1921;
+    margin-top:0px;
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+;
+}
+.result{
+    color:#4E4E4E;
+    margin-bottom:0px;
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+
+    
+}
+html, body {
+    max-width:550px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
